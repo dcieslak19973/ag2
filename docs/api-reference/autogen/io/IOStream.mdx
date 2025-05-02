@@ -1,0 +1,80 @@
+---
+sidebarTitle: IOStream
+title: autogen.io.IOStream
+---
+<h2 id="autogen.io.IOStream" class="doc doc-heading">
+    <code class="doc-symbol doc-symbol-heading doc-symbol-class"></code>
+    <span class="doc doc-object-name doc-class-name">IOStream</span>
+</h2>
+
+```python
+IOStream()
+```
+
+    A protocol for input/output streams.
+
+### Static Methods
+
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>
+#### get_default
+
+```python
+get_default() -> IOStreamProtocol | AsyncIOStreamProtocol
+```
+
+    Get the default input/output stream.<br/>Returns: <br/>    IOStream: The default input/output stream.
+
+<b>Returns:</b>
+| Type | Description |
+|--|--|
+| [IOStreamProtocol](/docs/api-reference/autogen/io/IOStreamProtocol) \| [AsyncIOStreamProtocol](/docs/api-reference/autogen/io/AsyncIOStreamProtocol) | IOStream: The default input/output stream. |
+
+<br />
+
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>
+#### get_global_default
+
+```python
+get_global_default() -> IOStreamProtocol | AsyncIOStreamProtocol
+```
+
+    Get the default input/output stream.<br/>Returns: <br/>    IOStream: The default input/output stream.
+
+<b>Returns:</b>
+| Type | Description |
+|--|--|
+| [IOStreamProtocol](/docs/api-reference/autogen/io/IOStreamProtocol) \| [AsyncIOStreamProtocol](/docs/api-reference/autogen/io/AsyncIOStreamProtocol) | IOStream: The default input/output stream. |
+
+<br />
+
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>
+#### set_default
+
+```python
+set_default(stream: IOStreamProtocol | AsyncIOStreamProtocol | None) -> Iterator[None]
+```
+
+    Set the default input/output stream.<br/>
+
+<b>Parameters:</b>
+| Name | Description |
+|--|--|
+| `stream` | The input/output stream to set as the default.<br/><br/>**Type:** [IOStreamProtocol](/docs/api-reference/autogen/io/IOStreamProtocol) \| [AsyncIOStreamProtocol](/docs/api-reference/autogen/io/AsyncIOStreamProtocol) \| None |
+
+<br />
+
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>
+#### set_global_default
+
+```python
+set_global_default(stream: IOStreamProtocol | AsyncIOStreamProtocol) -> None
+```
+
+    Set the default input/output stream.<br/>
+
+<b>Parameters:</b>
+| Name | Description |
+|--|--|
+| `stream` | The input/output stream to set as the default.<br/><br/>**Type:** [IOStreamProtocol](/docs/api-reference/autogen/io/IOStreamProtocol) \| [AsyncIOStreamProtocol](/docs/api-reference/autogen/io/AsyncIOStreamProtocol) |
+
+<br />
